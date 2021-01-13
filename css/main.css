@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+}
+
+header .central-text-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    width: 270px;
+    
+}
+
+header .svg-Wikipedia_wordmark {
+    color: transparent;
+    width: 176px;
+    height: 32px;
+    vertical-align: middle;
+    margin: 0 auto;
+    
+}
+
+header strong {
+    font-family: Georgia,Times,serif;
+    font-size: 1.5rem;
+    text-size-adjust: 100%;
+    text-align: center;
+    line-height: 33px;
+    font-feature-settings: "ss05";
+    font-weight: 700;
+}
+
+
+
+main .central-globe-logo-wrapper img {
+
+    position: absolute;
+    top:158px;
+    left:35px;
+    vertical-align: middle;
+    width: 200px;
+    height: 183px;
+
+}
