@@ -43,15 +43,111 @@ header strong {
     font-weight: 700;
 }
 
-
+main .central-globe-logo-wrapper {
+  
+}
 
 main .central-globe-logo-wrapper img {
-
-    position: absolute;
-    top:158px;
-    left:35px;
-    vertical-align: middle;
     width: 200px;
     height: 183px;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
 
 }
+
+main .central-featured {
+    position: relative;
+    height: 325px;
+    width: 546px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+main .central-featured ul {
+    list-style: none;
+}
+
+main .central-featured .lang1 {
+    position: absolute;
+    top: 0;
+    right:60%;
+    width: 15.6rem;
+}
+main .central-featured .lang2 {
+    position: absolute;
+    top: 0;
+    left:60%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang3 {
+    position: absolute;
+    top: 20%;
+    right:70%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang4 {
+    position: absolute;
+    top: 20%;
+    left:70%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang5 {
+    position: absolute;
+    top: 40%;
+    right:72%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang6 {
+    position: absolute;
+    top: 40%;
+    left:72%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang7 {
+    position: absolute;
+    top: 60%;
+    right:70%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang8 {
+    position: absolute;
+    top: 60%;
+    left:70%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang9 {
+    position: absolute;
+    top: 80%;
+    right:60%;
+    width: 15.6rem;
+}
+
+main .central-featured .lang10 {
+    position: absolute;
+    top: 80%;
+    left:60%;
+    width: 15.6rem;
+}
+
+main .central-featured a, a:active, a:focus {
+    outline: 0;
+    color: #36c;
+    font-size: 1.4rem;
+
+}
+
+
+
+
+
