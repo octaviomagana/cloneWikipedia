@@ -63,8 +63,9 @@
         </div>
         <div class="search-container">
             <div class="main-search-container">
-                <input type="text">
+                <input class="input-text" type="text">
                 <div class="hide-arrow">
+                    <label for="searchLanguage" class="js-langpicker-label">es</label>
                     <select id="searchLanguage" name="language">
                         <!-- 100,000+ content pages, sorted by romanization -->
                         <option value="ar" lang="ar">العربية</option><!-- Al-ʿArabīyah -->
@@ -139,7 +140,11 @@
                         <option value="ko" lang="ko">한국어</option><!-- Hangugeo -->
                     </select>
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="-1 -1 12 8" id="arrow-down" y="519"><path fill="none" stroke="#505356" stroke-width="1.11" d="M.56.55L5 4.9 9.44.54"/></svg>
+                    
                 </div>
+                <button class="search-button" type="submit">
+                    <span class="search-icon"></span>
+                </button>
             </div>
                 
             

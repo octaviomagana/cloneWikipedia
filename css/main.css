@@ -43,15 +43,12 @@ header strong {
     font-weight: 700;
 }
 
-main .central-globe-logo-wrapper {
-  
-}
 
 main .central-globe-logo-wrapper img {
     width: 200px;
     height: 183px;
     position: absolute;
-    top:30%;
+    top:40%;
     left:50%;
     transform: translate(-50%, -50%);
     
@@ -148,6 +145,7 @@ main .central-featured a, a:active, a:focus {
     color: #36c;
     font-weight: bold;
     font-size: 1.6rem;
+    text-decoration: none;
 
 }
 
@@ -157,35 +155,88 @@ main .central-featured p {
 }
 
 main .search-container {
+    font-family: Helvetica,Arial,sans-serif;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
     vertical-align: middle;
+    padding-top: 3rem;
+    
 }
 
 main .main-search-container {
-    display:inline-block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    height: 4.4rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a2a9b1;
+    border-width: 1px 0 1px 1px;
+    width: 460px;
+    
+    
 }
+
+
+
+main .search-container .input-text {
+    width: 334px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
 
 
 
 main .hide-arrow {
-    
-    
-    background: transparent;
+
     overflow: hidden;
     text-align: right;
 }
 
+main .js-langpicker-label {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: #54595d;
+    text-transform: uppercase;
+    padding-top:1.5rem;
+}
+
+main .hide-arrow {
+    padding: 0 2.4rem 0 .8rem;
+}
+
 main .hide-arrow select {
+    background: transparent;
     text-transform: none;
     appearance: none;
     outline: 0;
     cursor: pointer;
     border: 0;
     display: inline;
+    position: absolute;
+    color: hsla(0,0%,100%,0);
+    padding-top: 1.5rem;
+    width: 30px;
 }
+
+main .main-search-container .search-button {
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+    width: 50px;
+}
+
+main .main-search-container .search-button .search-icon {
+    background-image: url('https://lh3.googleusercontent.com/fife/ABSRlIqbxvN0AArFLCDScXEFtHfTo_LLl-aN1bUnaSUeQEmoGJFbhsNJmL0zP8DQFkP1C8vVujbpXSN_z8lhd1SaRy0O2d1tuWiNdJGuKFRAlEKAe-dAeG0cOaf5C_xqB7pW07JMpWxPLh2S-4U9dZ7MJs5p2kSk18wqJJl_iZFtpuqlagi68NdXBJCheBX0mOIH6PFhiOmQeQkIsZdXG2Zec7IxuV9mRO_ppixgZysA1qarzmMVXndF6X8ba58ELQ_8SCPyeaHKys4ggr4DEJrRzB30pXVaoVgJdthNxdA4cPuDwsQM068JTzCUEl2AS8N21ChfD6ZbYHATVNtC-UKeMTYTOyEFbCy50r-NV3d9GIP0_T0mEKDNuRJV3B4cpqMFGWvBDzWZazrcisF3He0b-Rsfd9R41-IqTeW3Wmvj04QCIo_8dW05hce8orZzm--TdxVTjrY_TOCfQh0dVhv5QYmym_-87g95ImJL9lD0K5QBkNs9rACsMaCCZkHDBolT8P93fHMCT4qhHRqypM3Khh8ym5fkH0bZw-VNxcpSDUmUinGQPPXYTUaQp59diWUuuHGkiXErWqyYOqdbSYpsxSI7gcCBZfixzofiv6eqNFjznA-SW1klVhptNWuRNRZos0FMPegID7sczIQOG50Xz9Ec2CA3dMrAPHwE2fPxA4s8LhmW73bmzoKJT7mFp66MNsbJ2lZn8j-Urjuv2WT3x_PV43fgBn2Cmw=w2804-h1418-ft');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
