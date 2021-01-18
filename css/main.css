@@ -48,7 +48,7 @@ main .central-globe-logo-wrapper img {
     width: 200px;
     height: 183px;
     position: absolute;
-    top:40%;
+    top:33%;
     left:50%;
     transform: translate(-50%, -50%);
     
@@ -182,7 +182,7 @@ main .main-search-container {
 
 
 main .search-container .input-text {
-    width: 334px;
+    width: 324px;
     border: none;
     outline: none;
     padding-left: 1rem;
@@ -225,17 +225,49 @@ main .hide-arrow select {
 
 main .main-search-container .search-button {
     background-color: #36c;
-    border-color: #36c;
+    border: 1px solid #36c;
     color: #fff;
-    width: 50px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    padding: .8rem 1.6rem;
+    min-height: 4.4rem;
+    margin: 0;
+    z-index: 2;
+    display: inline-block;
+    zoom: 1;
+    white-space: nowrap;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+    border: 1px solid #a2a9b1;
+    text-transform: none;
+    overflow: visible;
+
 }
 
-main .main-search-container .search-button .search-icon {
-    background-image: url('https://lh3.googleusercontent.com/fife/ABSRlIqbxvN0AArFLCDScXEFtHfTo_LLl-aN1bUnaSUeQEmoGJFbhsNJmL0zP8DQFkP1C8vVujbpXSN_z8lhd1SaRy0O2d1tuWiNdJGuKFRAlEKAe-dAeG0cOaf5C_xqB7pW07JMpWxPLh2S-4U9dZ7MJs5p2kSk18wqJJl_iZFtpuqlagi68NdXBJCheBX0mOIH6PFhiOmQeQkIsZdXG2Zec7IxuV9mRO_ppixgZysA1qarzmMVXndF6X8ba58ELQ_8SCPyeaHKys4ggr4DEJrRzB30pXVaoVgJdthNxdA4cPuDwsQM068JTzCUEl2AS8N21ChfD6ZbYHATVNtC-UKeMTYTOyEFbCy50r-NV3d9GIP0_T0mEKDNuRJV3B4cpqMFGWvBDzWZazrcisF3He0b-Rsfd9R41-IqTeW3Wmvj04QCIo_8dW05hce8orZzm--TdxVTjrY_TOCfQh0dVhv5QYmym_-87g95ImJL9lD0K5QBkNs9rACsMaCCZkHDBolT8P93fHMCT4qhHRqypM3Khh8ym5fkH0bZw-VNxcpSDUmUinGQPPXYTUaQp59diWUuuHGkiXErWqyYOqdbSYpsxSI7gcCBZfixzofiv6eqNFjznA-SW1klVhptNWuRNRZos0FMPegID7sczIQOG50Xz9Ec2CA3dMrAPHwE2fPxA4s8LhmW73bmzoKJT7mFp66MNsbJ2lZn8j-Urjuv2WT3x_PV43fgBn2Cmw=w2804-h1418-ft');
+main .main-search-container .search-button:hover {
+    background: #447ff5;
+    border: 1px solid #447ff5;
+}
+
+
+main .main-search-container .search-icon {
+    background-image: linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/sprite-46c49284.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: 0 -697px;
+    width: 22px;
+    height: 22px;
+    text-indent: -9999px;
+    
+
+    
+
 }
+
 
 
 
