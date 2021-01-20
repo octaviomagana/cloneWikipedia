@@ -173,13 +173,14 @@ main .main-search-container {
     height: 4.4rem;
     background-color: rgb(255, 255, 255);
     border: 1px solid #a2a9b1;
-    border-width: 1px 0 1px 1px;
+    border-width: 1px 1px 1px 1px;
     width: 460px;
-    
-    
+    border-radius: 0 3px 3px 0;
 }
 
-
+main .main-search-container:hover {
+    border-color: #72777d;
+}
 
 main .search-container .input-text {
     width: 324px;
@@ -188,7 +189,11 @@ main .search-container .input-text {
     padding-left: 1rem;
 }
 
-
+main .main-search-container:focus-within {
+    border-color: #447ff5;
+    border-width: 2px 2px 2px 2px;
+    outline: 0;
+}
 
 
 main .hide-arrow {
@@ -196,6 +201,8 @@ main .hide-arrow {
     overflow: hidden;
     text-align: right;
 }
+
+
 
 main .js-langpicker-label {
     display: inline-block;
@@ -226,10 +233,10 @@ main .hide-arrow select {
 main .main-search-container .search-button {
     background-color: #36c;
     border: 1px solid #36c;
-    color: #fff;
     width: 60px;
+    height: 4.4rem;
     cursor: pointer;
-    border-radius: 0 2px 2px 0;
+    border-radius: 0 0 0 0;
     padding: .8rem 1.6rem;
     min-height: 4.4rem;
     margin: 0;
@@ -240,35 +247,27 @@ main .main-search-container .search-button {
     text-align: center;
     user-select: none;
     text-decoration: none;
-    border: 1px solid #a2a9b1;
     text-transform: none;
     overflow: visible;
-
+    background-image: linear-gradient(transparent,transparent),url(https://lh3.googleusercontent.com/fife/ABSRlIoOzk5Dgyj67Jmb_cTAO3RbIG51WWFNLGbPzJDrW6VeCLJbhyDHVV4Dz0zSsH--iShBjZzJbIi3JJr1KP8JYL7sdvh9pcx6e4IIliFEk4mg4W5cvnVMbxXv3BwEPZLBp81s0BpnLCrvxfQohdQhKHGcZ3oc7408hjKAGOR-jHajcxZanW1Qwonk-D8G3p-2sSPG6X6ge7wPt02DuDHsBxE2zrG_lfITXrUG-9KQ5V8O_oyWlMe-2eG5yPx7RcyTo0ayZb__XkP9A1Sj__ZKdzIAahNOgRMp8AfJzN2mTlg8nKXdCtqwKrFosbyc7L_jJtnxe4fEYCahNT7Ir_GSIigtL5vzENi1xEmVEp3yuy4rDMylLMndhwFRuaYq7X2XYz5Y8vnhH1eupCZyblsCWzRPFg4IvbET0y9bNMIIWZkd0gJoSiViHesu4bLmRJhaTJ_1TFqBOx_x5NSmVLBDiXnkpkccv_99b-xtdJ8nO4IzIT1kF9JjWRbDt9NIPVb1HeqW2c31gilvH7PUZ2DD4f9HcrSHTWiBoHb-IJkDNdfo_h8pMtoqduAax-Tt3TCoheksKmhIGgqZb2OgZhaR8-Hz7525RBqs6H44unhzHfiWjiyopqRke7Hd5MsucyMjsecN3291uoyogTQiIbfwBRrTUiWuSfY4O7R_pZlmxxwY9z0qFCv0ZIvxFHlTU7n1r-uAxqMHqXP1NASW0lf64_T8MR7kQ6jpag=w1920-h889-ft);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 main .main-search-container .search-button:hover {
     background: #447ff5;
     border: 1px solid #447ff5;
-}
-
-
-main .main-search-container .search-icon {
-    background-image: linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/sprite-46c49284.svg);
+    background-image: linear-gradient(transparent,transparent),url(https://lh3.googleusercontent.com/fife/ABSRlIoOzk5Dgyj67Jmb_cTAO3RbIG51WWFNLGbPzJDrW6VeCLJbhyDHVV4Dz0zSsH--iShBjZzJbIi3JJr1KP8JYL7sdvh9pcx6e4IIliFEk4mg4W5cvnVMbxXv3BwEPZLBp81s0BpnLCrvxfQohdQhKHGcZ3oc7408hjKAGOR-jHajcxZanW1Qwonk-D8G3p-2sSPG6X6ge7wPt02DuDHsBxE2zrG_lfITXrUG-9KQ5V8O_oyWlMe-2eG5yPx7RcyTo0ayZb__XkP9A1Sj__ZKdzIAahNOgRMp8AfJzN2mTlg8nKXdCtqwKrFosbyc7L_jJtnxe4fEYCahNT7Ir_GSIigtL5vzENi1xEmVEp3yuy4rDMylLMndhwFRuaYq7X2XYz5Y8vnhH1eupCZyblsCWzRPFg4IvbET0y9bNMIIWZkd0gJoSiViHesu4bLmRJhaTJ_1TFqBOx_x5NSmVLBDiXnkpkccv_99b-xtdJ8nO4IzIT1kF9JjWRbDt9NIPVb1HeqW2c31gilvH7PUZ2DD4f9HcrSHTWiBoHb-IJkDNdfo_h8pMtoqduAax-Tt3TCoheksKmhIGgqZb2OgZhaR8-Hz7525RBqs6H44unhzHfiWjiyopqRke7Hd5MsucyMjsecN3291uoyogTQiIbfwBRrTUiWuSfY4O7R_pZlmxxwY9z0qFCv0ZIvxFHlTU7n1r-uAxqMHqXP1NASW0lf64_T8MR7kQ6jpag=w1920-h889-ft);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
     vertical-align: middle;
-    background-position: 0 -697px;
-    width: 22px;
-    height: 22px;
-    text-indent: -9999px;
-    
-
-    
-
 }
 
 
-
-
-
+main .main-search-container .search-button:focus{
+    border-color: #447ff5;
+   
+}
