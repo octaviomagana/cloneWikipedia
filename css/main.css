@@ -279,7 +279,7 @@ main .main-search-container .search-button:focus{
 
 .lang-list-button {
     background-color: #fff;
-    outline: 1px solid #fff;
+    outline: 1.6rem solid #fff;
     transition-delay: 0s;
     display: inline;
     position: relative;
@@ -316,5 +316,29 @@ main .lang-list-button-wrapper .svg-arrow-down-blue {
     height: 14px;
 }
 
+main .lang-list-border {
+    background-color: #c8ccd1;
+    display:block;
+    position: relative;
+    max-width: 460px;
+    width: 80%;
+    margin: -1.6rem auto 1.6rem;
+    height: 1px;
+    transition: max-width .2s ease-out 400s;
+}
 
+main hr {
+    border: 0;
+    border-top: 1px solid #c8ccd1;
+    overflow: hidden;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    box-sizing:content-box;
+    margin: 5rem 1.3rem;
+    height: 0;
+    clear: both;
+
+}
 
