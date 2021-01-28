@@ -395,15 +395,16 @@ footer .download-container {
     padding-top: 3rem;
 } 
 
-.footer-grid .svg-Commons-logo_sister, .svg-Wikivoyage-logo_sister, .svg-Wiktionary-logo_sister{
+.footer-grid svg{
     padding-top: 1.2rem;
 }
+
 
 footer .other-project-title {
     color: #36c;
 }
 
-.footer-grid .b, .c, .d {
+.footer-grid .b, .c, .d, .f, .g, .h {
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -413,10 +414,18 @@ footer .tagline-wrapper {
     display: inline-block;
     text-align: left;
     padding-top: 1.2rem;
-    padding-left: .8rem;
+    padding-left: 2.2rem;
 }
 
-footer .other-project-tagline-2 {
+footer .tagline-wrapper-2 {
+    display: inline-block;
+    text-align: left;
+    padding-top: 1.2rem;
+    padding-left: 1.3rem;
+}
+
+
+footer .other-project-tagline-60 {
     margin:0;
     padding-top: .5rem;
     width: 60%;
@@ -424,9 +433,18 @@ footer .other-project-tagline-2 {
 }
 
 
-footer .other-project-tagline-3, .other-project-tagline-4 {
+footer .other-project-tagline {
     margin:0;
     padding-top: .5rem;
+    
+}
+
+
+footer .svg-Wikinews-logo_sister {
+    width: 47px;
+    height: 25px;
+    padding-top: 1.2rem;
+
 }
 
 
