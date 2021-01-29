@@ -361,7 +361,7 @@ footer .footer-grid {
 
 
 .box {
-    border: 1px solid #c8ccd1;
+   
     font-size: 1.3rem;
     color: #54595d;
     
@@ -373,8 +373,12 @@ footer .footer-grid {
     text-align: left;
 }
 
+.footer-grid .a {
+    padding-top:.8rem;
+}
+
 .footer-grid .a .svg-Wikimedia-logo_black {
-    padding-top: 1.2rem;
+    padding-top: 1.3rem;
     padding-left: 15rem;
 }
 
@@ -396,7 +400,7 @@ footer .download-container {
 } 
 
 .footer-grid svg{
-    padding-top: 1.2rem;
+    padding-top: 2rem;
 }
 
 
@@ -404,24 +408,43 @@ footer .other-project-title {
     color: #36c;
 }
 
-.footer-grid .b, .c, .d, .f, .g, .h {
+.footer-grid .b, .c, .d, .f, .g, .h, .i, .j, .k, .l, .m, .n {
     display: flex;
     flex-direction: row;
     text-align: left;
 }
 
+.footer-grid .f, .g, .h, .i, .j, .k, .l, .m, .n {
+    padding-top: 1rem;
+
+}
+
+footer .tagline-wrapper-4 {
+    display: inline-block;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+footer .tagline-wrapper-3 {
+    display: inline-block;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 2.4rem;
+}
+
 footer .tagline-wrapper {
     display: inline-block;
     text-align: left;
-    padding-top: 1.2rem;
-    padding-left: 2.2rem;
+    padding-top: 2rem;
+    padding-left: 1.9rem;
 }
 
 footer .tagline-wrapper-2 {
     display: inline-block;
     text-align: left;
-    padding-top: 1.2rem;
-    padding-left: 1.3rem;
+    padding-top: 2rem;
+    padding-left: 1.4rem;
 }
 
 
@@ -439,6 +462,13 @@ footer .other-project-tagline {
     
 }
 
+footer .other-project-tagline-80 {
+    margin:0;
+    padding-top: .5rem;
+    width: 80%;
+    
+}
+
 
 footer .svg-Wikinews-logo_sister {
     width: 47px;
@@ -448,6 +478,26 @@ footer .svg-Wikinews-logo_sister {
 }
 
 
+.site-license {
+    margin: 0;
+    color: #54595d;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+}
 
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
 
+}
 
+.site-license small:after {
+    display: inline-block;
+    margin-left: .8rem;
+}
