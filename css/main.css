@@ -43,16 +43,20 @@ header strong {
     font-weight: 700;
 }
 
+main .central-globe-logo-wrapper {
+    position: relative;
+    
+}
 
 main .central-globe-logo-wrapper img {
     width: 200px;
     height: 183px;
     position: absolute;
-    top:33%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    
-
+    margin: auto;
+    top: 320px;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 main .central-featured {
@@ -485,6 +489,7 @@ footer .svg-Wikinews-logo_sister {
     padding-top: 3rem;
     font-size: 1.6rem;
     line-height: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 p {
@@ -500,4 +505,19 @@ p {
 .site-license small:after {
     display: inline-block;
     margin-left: .8rem;
+    content: "\2022"
 }
+
+.site-license a, a:active, a:focus {
+    unicode-bidi: embed;
+    outline: 0;
+    color: #36c;
+    text-decoration: none;
+}
+
+.site-license a {
+    touch-action: manipulation;
+    background-color: transparent;
+    cursor: pointer;
+}
+
